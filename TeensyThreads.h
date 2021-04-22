@@ -181,7 +181,7 @@ class Threads {
 public:
   // The maximum number of threads is hard-coded to simplify
   // the implementation. See notes of ThreadInfo.
-  static const int MAX_THREADS = 8;
+  static const int MAX_THREADS = 20;
   int DEFAULT_STACK_SIZE = 1024;
   const int DEFAULT_STACK0_SIZE = 10240; // estimate for thread 0?
   int DEFAULT_TICKS = 10;
